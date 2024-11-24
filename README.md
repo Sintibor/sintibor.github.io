@@ -52,3 +52,88 @@
         </footer>
     </body>
 </html>
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    justify-content: space-between;
+    padding: 35px 20px 35px 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.button {
+    background-color: #FFAE40;
+    color: #000000;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: #FFEF40;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    display: flex;
+}
+
+article {
+    background-color: white;
+    padding: 20px 45px 20px 45px;
+    width: 400px;
+    margin: 40px 20px 40px 20px;
+    justify-content: space-around
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #FFAE40;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    background-color: #514ED9;
+    padding: 60px 0px 60px 278px;
+    display: flex
+}
+
+footer a {
+    margin-right: 42px;
+}
+
+footer p {
+    font-size: 24px;
+}
